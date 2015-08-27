@@ -87,7 +87,7 @@ pod "ZenLayout"
 
 **Reason 1: It's clean and simple.** You no longer have to write a lot of code just to set view's width and height in Auto Layout. And it's actually very easy to see what is going on in your code when you open it after a long vacation.
 
-Yeah, kinda... But there are a lot of libraries that allow you to do the same.
+Yeah, kinda... But there is a lot of libraries that allow you to do the same.
 
 **Reason 2: You don't have to learn anything new to start using it.** That's it. These are the same constraints you used to write before. Just different style. No fancy methods that are hard to remember. Everything is straightforward.
 
