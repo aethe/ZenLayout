@@ -1,0 +1,6 @@
+framework module Pods_ZenLayout_Example {
+  umbrella header "Pods-ZenLayout_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
