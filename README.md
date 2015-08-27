@@ -1,5 +1,7 @@
-![ZenLayout](https://github.com/aethe/ZenLayout/blob/master/Images/logo.png) [![Version](https://img.shields.io/cocoapods/v/ZenLayout.svg?style=flat)](http://cocoapods.org/pods/ZenLayout) [![Platform](https://img.shields.io/cocoapods/p/ZenLayout.svg?style=flat)](http://cocoapods.org/pods/ZenLayout) [![License](https://img.shields.io/cocoapods/l/ZenLayout.svg?style=flat)](http://cocoapods.org/pods/ZenLayout)
+![ZenLayout](https://github.com/aethe/ZenLayout/blob/master/Images/logo.png)
 -
+
+[![Version](https://img.shields.io/cocoapods/v/ZenLayout.svg?style=flat)](http://cocoapods.org/pods/ZenLayout) [![Platform](https://img.shields.io/cocoapods/p/ZenLayout.svg?style=flat)](http://cocoapods.org/pods/ZenLayout) [![License](https://img.shields.io/cocoapods/l/ZenLayout.svg?style=flat)](http://cocoapods.org/pods/ZenLayout)
 
 If you have ever had to write Auto Layout constraints in code, you probably know how painful it could be sometimes. ZenLayout is a small but smart library which aims to simplify the layout related programming and make it both convenient and enjoyable.
 
