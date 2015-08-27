@@ -1,12 +1,11 @@
 {
   "name": "ZenLayout",
   "version": "0.1.0",
-  "summary": "A short description of ZenLayout.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/ZenLayout",
+  "summary": "An extension for UIView that makes working with Auto Layout easy.",
+  "homepage": "https://github.com/aethe/ZenLayout",
   "license": "MIT",
   "authors": {
-    "aethe": "andrew.aethe@gmail.com"
+    "Andrey Ufimtsev": "andrew.aethe@gmail.com"
   },
   "source": {
     "git": "https://github.com/<GITHUB_USERNAME>/ZenLayout.git",
