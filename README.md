@@ -75,6 +75,10 @@ Let's say we have a constraint that makes the `child`'s height to be half of the
 child.height == 0.5 * parent.height - 4 ! 100
 ```
 
+### Convenience methods
+
+TODO.
+
 ## Installation
 
 ZenLayout is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile:
@@ -89,11 +93,11 @@ pod "ZenLayout"
 
 Yeah, kinda... But there is a lot of libraries that allow you to do the same.
 
-**Reason 2: You don't have to learn anything new to start using it.** That's it. These are the same constraints you used to write before. Just different style. No fancy methods that are hard to remember. Everything is straightforward.
+**Reason 2: You don't have to learn anything new to start using it.** That's it. These are the same constraints you used to write before. Just different style. You don't need to remember any fancy methods. It's very straightforward.
 
-But I want those fancy methods! I want to be able to set constraints for a bunch of views by writing only one line of code!
+But I want those fancy methods! I want to set constraints for a bunch of views by writing only one line of code!
 
-**Reason 3: Additional convenient methods are coming soon.** It's good to have a powerful toolset under your hand. It's just that ZenLayout will never force you to use it, if you don't feel comfortable with it. Some additional methods are coming soon, but there aren't any at the moment. Come on! This library is just 2 days old at the time of writing this. Give me a break. :)
+**Reason 3: Convenience methods.** It's definitely good to have such a toolset under your hand. ZenLayout provides one, but will never force you to use it unless you feel comfortable with it.
 
 ## Support
 
