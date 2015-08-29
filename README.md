@@ -69,10 +69,10 @@ Notice that we don't have to write `setTranslatesAutoresizingMaskIntoConstraints
 
 ### Setting a constraint's priority
 
-Let's say we have a constraint that makes the `child`'s height to be half of the `parent`'s height minus 4 and we want to set it's priority to 100. Use the special `~`-syntax to do that:
+Let's say we have a constraint that makes the `child`'s height to be half of the `parent`'s height minus 4 and we want to set it's priority to 100. Use the special `!`-syntax to do that:
 
 ```swift
-child.height == 0.5 * parent.height - 4 ~ 100
+child.height == 0.5 * parent.height - 4 ! 100
 ```
 
 ## Installation
