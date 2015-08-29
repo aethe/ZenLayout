@@ -14,12 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let label = UILabel()
-        label.text = "It's working!"
-        view.addSubview(label)
-        
-        view.addConstraint(label.centerX == view.centerX)
-        view.addConstraint(label.centerY == view.centerY)
+        // ...
     }
 
 }

@@ -8,7 +8,7 @@
     "Andrey Ufimtsev": "andrew.aethe@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/ZenLayout.git",
+    "git": "https://github.com/aethe/ZenLayout.git",
     "tag": "0.1.0"
   },
   "platforms": {
