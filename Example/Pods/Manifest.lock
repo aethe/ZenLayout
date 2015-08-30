@@ -1,7 +1,7 @@
 PODS:
   - Nimble (1.0.0)
   - Quick (0.3.1)
-  - ZenLayout (0.2.0)
+  - ZenLayout (0.2.1)
 
 DEPENDENCIES:
   - Nimble
@@ -15,6 +15,6 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Nimble: 8bee528e5fcc403653076545db562d2b5db7bb87
   Quick: 824572d3d198d51e52cf4aa722cebf7e59952a35
-  ZenLayout: 8f8f76b96e247bf1e82254aaaa19aea421b67274
+  ZenLayout: dbd2b248fdb2fd4af93cad03990743b903bd9edb
 
 COCOAPODS: 0.38.2
