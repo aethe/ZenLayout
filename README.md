@@ -99,13 +99,17 @@ layout(child, pinToCenterOf: parent, displacement: CGVector(dx: 15, dy: 20))
 **Pinning to edges.** You can pin view's edges to the edges of another view by calling `layout(_:pinToEdgesOf:)` or you can call `layout(_:pinToEdgesOf:insets:)` to specify insets:
 
 ```swift
-layout(child, pinToEdgesOf: parent, insets: UIEdgeInsets(top: 8, left: 8, bottom: 8, right: 8))
+layout(child,
+    pinToEdgesOf: parent,
+    insets: UIEdgeInsets(top: 8, left: 8, bottom: 8, right: 8))
 ```
 
 **Pinning to margins.** You can pin view's edges to the margins of another view by calling `layout(_:pinToMarginsOf:)` or you can call `layout(_:pinToMarginsOf:insets:)` to specify insets:
 
 ```swift
-layout(child, pinToMarginsOf: parent, insets: UIEdgeInsets(top: 8, left: 8, bottom: 8, right: 8))
+layout(child,
+    pinToMarginsOf: parent,
+    insets: UIEdgeInsets(top: 8, left: 8, bottom: 8, right: 8))
 ```
 
 **More coming!** That's right! This is far from the end.
