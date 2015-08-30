@@ -40,7 +40,7 @@ view.addConstraint(label.top == button.bottom + 15)
 view.addConstraint(label.centerX == button.centerX)
 ```
 
-Impressive? Let's contunue then!
+Impressive? Let's continue then!
 
 ### Writing a constraint
 
@@ -50,7 +50,7 @@ So, as you might have noticed, ZenLayout allows us to treat a constraint as an e
 view1.attribute == multiplier * view2.attribute + constant
 ```
 
-Sucn an expression results in an object of `NSLayoutConstraint` class and you can store it inside a variable or put directly into the `addConstraint()` method:
+Such an expression results in an object of `NSLayoutConstraint` class and you can store it inside a variable or put directly into the `addConstraint()` method:
 
 ```swift
 let constraint = child.left == parent.left
