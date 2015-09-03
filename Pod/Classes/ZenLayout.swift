@@ -86,10 +86,10 @@ public func - (attribute: ZenLayoutAttribute, constant: CGFloat) -> ZenLayoutAtt
     return attribute
 }
 
-infix operator ! { associativity left precedence 140 }
-public func ! (attribute: ZenLayoutAttribute, priority: UILayoutPriority) -> ZenLayoutAttribute {
-    attribute.priority = priority
-    return attribute
+infix operator ! { associativity left precedence 95 }
+public func ! (constraint: NSLayoutConstraint, priority: UILayoutPriority) -> NSLayoutConstraint {
+    constraint.priority = priority
+    return constraint
 }
 
 // MARK: - UIView Extension
