@@ -87,7 +87,7 @@ It's important to keep in mind two things:
 **Matching size.** You can set the size of a view by calling `layout(_:matchSize:)`:
 
 ```swift
-layout(view, matchSize: CGSize(width: 50, height: 50)
+layout(view, matchSize: CGSize(width: 50, height: 50))
 ```
 
 **Pinning to center.** You can attach view's center to the center of another view by calling `layout(_:pinToCenterOf:)` or you can call `layout(_:pinToCenterOf:displacement:)` to specify a displacement from the center:
