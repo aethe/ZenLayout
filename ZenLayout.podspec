@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "ZenLayout"
-  s.version          = "0.2.2"
+  s.version          = "0.2.3"
   s.summary          = "An extension for UIView that makes working with Auto Layout easy."
 
   s.homepage         = "https://github.com/aethe/ZenLayout"
