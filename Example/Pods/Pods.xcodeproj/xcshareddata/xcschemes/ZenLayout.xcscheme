@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7296EFAB0BF14D7219446A33"
+               BlueprintIdentifier = "4427ED3BDF74407AAF1D48D6"
                BuildableName = "ZenLayout.framework"
                BlueprintName = "ZenLayout"
                ReferencedContainer = "container:Pods.xcodeproj">

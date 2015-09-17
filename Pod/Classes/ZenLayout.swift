@@ -27,32 +27,32 @@ public class ZenLayoutAttribute {
 // MARK: - Overloaded Operators
 
 public func == (lhs: ZenLayoutAttribute, rhs: ZenLayoutAttribute) -> NSLayoutConstraint {
-    lhs.view.setTranslatesAutoresizingMaskIntoConstraints(false)
+    lhs.view.translatesAutoresizingMaskIntoConstraints = false
     return NSLayoutConstraint(item: lhs.view, attribute: lhs.rawAttribute, relatedBy: NSLayoutRelation.Equal, toItem: rhs.view, attribute: rhs.rawAttribute, multiplier: rhs.multiplier, constant: rhs.constant)
 }
 
 public func >= (lhs: ZenLayoutAttribute, rhs: ZenLayoutAttribute) -> NSLayoutConstraint {
-    lhs.view.setTranslatesAutoresizingMaskIntoConstraints(false)
+    lhs.view.translatesAutoresizingMaskIntoConstraints = false
     return NSLayoutConstraint(item: lhs.view, attribute: lhs.rawAttribute, relatedBy: NSLayoutRelation.GreaterThanOrEqual, toItem: rhs.view, attribute: rhs.rawAttribute, multiplier: rhs.multiplier, constant: rhs.constant)
 }
 
 public func <= (lhs: ZenLayoutAttribute, rhs: ZenLayoutAttribute) -> NSLayoutConstraint {
-    lhs.view.setTranslatesAutoresizingMaskIntoConstraints(false)
+    lhs.view.translatesAutoresizingMaskIntoConstraints = false
     return NSLayoutConstraint(item: lhs.view, attribute: lhs.rawAttribute, relatedBy: NSLayoutRelation.LessThanOrEqual, toItem: rhs.view, attribute: rhs.rawAttribute, multiplier: rhs.multiplier, constant: rhs.constant)
 }
 
 public func == (attribute: ZenLayoutAttribute, value: CGFloat) -> NSLayoutConstraint {
-    attribute.view.setTranslatesAutoresizingMaskIntoConstraints(false)
+    attribute.view.translatesAutoresizingMaskIntoConstraints = false
     return NSLayoutConstraint(item: attribute.view, attribute: attribute.rawAttribute, relatedBy: NSLayoutRelation.Equal, toItem: nil, attribute: NSLayoutAttribute.NotAnAttribute, multiplier: 1, constant: value)
 }
 
 public func >= (attribute: ZenLayoutAttribute, value: CGFloat) -> NSLayoutConstraint {
-    attribute.view.setTranslatesAutoresizingMaskIntoConstraints(false)
+    attribute.view.translatesAutoresizingMaskIntoConstraints = false
     return NSLayoutConstraint(item: attribute.view, attribute: attribute.rawAttribute, relatedBy: NSLayoutRelation.GreaterThanOrEqual, toItem: nil, attribute: NSLayoutAttribute.NotAnAttribute, multiplier: 1, constant: value)
 }
 
 public func <= (attribute: ZenLayoutAttribute, value: CGFloat) -> NSLayoutConstraint {
-    attribute.view.setTranslatesAutoresizingMaskIntoConstraints(false)
+    attribute.view.translatesAutoresizingMaskIntoConstraints = false
     return NSLayoutConstraint(item: attribute.view, attribute: attribute.rawAttribute, relatedBy: NSLayoutRelation.LessThanOrEqual, toItem: nil, attribute: NSLayoutAttribute.NotAnAttribute, multiplier: 1, constant: value)
 }
 
@@ -217,7 +217,7 @@ public extension UIView {
         layout(child, pinToCenterOf: parent)
     */
     public func layout(view: UIView, pinToCenterOf anotherView: UIView) {
-        layout(view, pinToCenterOf: anotherView, displacement: CGVector.zeroVector)
+        layout(view, pinToCenterOf: anotherView, displacement: CGVector.zero)
     }
 
     /**
