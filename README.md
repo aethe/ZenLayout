@@ -134,10 +134,6 @@ But I want those fancy methods! I want to set constraints for a bunch of views b
 
 **Reason 3: Convenience methods.** It's definitely good to have such a toolset under your hand. ZenLayout provides one, but will never force you to use it unless you feel comfortable with it.
 
-## Support
-
-If you have a suggestion or you have found a bug, feel free to send me a mail to andrew.aethe@gmail.com. I would be also glad to know if you end up using ZenLayout in your project. Cheers!
-
 ## License
 
 ZenLayout is available under the MIT license. See the LICENSE file for more info.
